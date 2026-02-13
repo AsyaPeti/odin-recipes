@@ -7,9 +7,18 @@ html {
   background-color: #f0efeb;
 }
 
+h1 {
+  background-color: white;
+  text-align: center;
+  margin: 16px auto;
+  padding: 8px;
+  font-size: 32px;
+  width: 930px;
+}
+
 .recipe {
   background-color: white;
-  padding: 16px 16px 0px;
+  padding: 16px 16px 4px;
   width: 275px;
   display: inline-block;
   margin: 16px 4px;
@@ -24,4 +33,16 @@ html {
 .figs-card {
   width: 954px;
   margin: 0 auto;
+}
+
+.link {
+  font-size: 24px;
+  text-align: center;
+  width: 275px;
+  display: inline-block;
+}
+
+.link:hover {
+  background-color: hsl(202, 65%, 26%);
+  color: #f0efeb;
 }
