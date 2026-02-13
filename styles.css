@@ -6,3 +6,22 @@
 html {
   background-color: #f0efeb;
 }
+
+.recipe {
+  background-color: white;
+  padding: 16px 16px 0px;
+  width: 250px;
+  display: inline-block;
+  margin: 16px 4px;
+}
+
+.crop {
+  width: 250px;
+  height: 414.58px;
+  object-fit: cover;
+}
+
+.figs-card {
+  width: 878px;
+  margin: 0 auto;
+}
