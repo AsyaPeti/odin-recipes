@@ -10,18 +10,18 @@ html {
 .recipe {
   background-color: white;
   padding: 16px 16px 0px;
-  width: 250px;
+  width: 275px;
   display: inline-block;
   margin: 16px 4px;
 }
 
 .crop {
-  width: 250px;
-  height: 414.58px;
+  width: 275px;
+  height: 456.04px;
   object-fit: cover;
 }
 
 .figs-card {
-  width: 878px;
+  width: 954px;
   margin: 0 auto;
 }
