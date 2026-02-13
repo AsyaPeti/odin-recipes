@@ -1,22 +1,29 @@
 * {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: hsl(202, 65%, 26%);
+  margin: 0px;
 }
 
 html {
   background-color: #f0efeb;
+  width: 100%;
 }
 
 h1 {
   background-color: white;
   text-align: center;
   margin: 16px auto;
-  padding: 8px;
+  padding: 8px 0px;
   font-size: 32px;
-  width: 930px;
+  width: 945px;
 }
 
-.recipe {
+.cards {
+  width: 953px;
+  margin: 0px auto;
+}
+
+.images {
   background-color: white;
   padding: 16px 16px 4px;
   width: 275px;
@@ -30,11 +37,6 @@ h1 {
   object-fit: cover;
 }
 
-.figs-card {
-  width: 954px;
-  margin: 0 auto;
-}
-
 .link {
   font-size: 24px;
   text-align: center;
@@ -45,4 +47,48 @@ h1 {
 .link:hover {
   background-color: hsl(202, 65%, 26%);
   color: #f0efeb;
+}
+
+.card {
+  background-color: white;
+  margin: 32px auto;
+  width: 945px;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.figure {
+  display: inline-block;
+}
+
+.credits {
+  color: hsl(202, 0%, 26%);
+  font-size: 12px;
+}
+
+h2,
+p {
+  margin-bottom: 8px;
+}
+
+.description {
+  width: 275px;
+  margin: 0px 40px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+ul,
+ol {
+  padding-left: 16px;
+}
+
+.steps {
+  width: 275px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.align {
+  text-align: center;
 }
