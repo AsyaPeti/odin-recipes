@@ -1,13 +1,12 @@
 * {
-  font-family: Georgia, "Times New Roman", Times, serif;
   color: hsl(202, 65%, 26%);
+  font-family: Georgia, "Times New Roman", Times, serif;
   margin: 0px;
 }
 
 html {
-  box-sizing: border-box;
   background-color: #f0efeb;
-  width: 100%;
+  box-sizing: border-box;
 }
 
 *,
@@ -16,39 +15,56 @@ html {
   box-sizing: inherit;
 }
 
-h1 {
+h1,
+.card {
   background-color: white;
-  text-align: center;
-  margin: 16px auto;
-  padding: 8px 0px;
-  font-size: 32px;
   width: 945px;
 }
 
+h1,
+.link,
+.align {
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+  margin: 16px auto;
+  padding: 8px 0px;
+}
+
 .cards {
-  width: 953px;
   margin: 0px auto;
+  width: 953px;
+}
+
+.images,
+.link,
+.display {
+  display: inline-block;
 }
 
 .images {
   background-color: white;
+  margin: 16px 4px;
   padding: 16px 16px 4px;
   width: 307px;
-  display: inline-block;
-  margin: 16px 4px;
+}
+
+.crop,
+.link,
+.description,
+.steps {
+  width: 275px;
 }
 
 .crop {
-  width: 275px;
   height: 456.04px;
   object-fit: cover;
 }
 
 .link {
   font-size: 24px;
-  text-align: center;
-  width: 275px;
-  display: inline-block;
 }
 
 .link:hover {
@@ -57,15 +73,8 @@ h1 {
 }
 
 .card {
-  background-color: white;
   margin: 32px auto;
-  width: 945px;
   padding: 16px;
-  box-sizing: border-box;
-}
-
-.figure {
-  display: inline-block;
 }
 
 .credits {
@@ -79,9 +88,7 @@ p {
 }
 
 .description {
-  width: 275px;
   margin: 0px 40px;
-  display: inline-block;
   vertical-align: top;
 }
 
@@ -91,19 +98,13 @@ ol {
 }
 
 .steps {
-  width: 275px;
-  display: inline-block;
   vertical-align: top;
-}
-
-.align {
-  text-align: center;
-}
-
-.pizza {
-  font-size: 13px;
 }
 
 ol.pizza {
   padding-left: 14px;
+}
+
+.pizza {
+  font-size: 13px;
 }
