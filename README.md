@@ -9,3 +9,5 @@ Additionally, trained the skill of working with Git, GitHub, and writing commit 
 Messed up the articles in commit messages; should be more careful in the future.
 
 Overall, the project is quite simple and straightforward.
+
+UPD: The newly learned .css styles were applied. Specifically, changed the colors, typographic properties, box model parameters and sizes. Also learned how to use object-fit to crop images and vertical-align to align inline blocks. This was more challenging than doing the project in .html only.
