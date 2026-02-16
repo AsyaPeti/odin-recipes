@@ -5,8 +5,15 @@
 }
 
 html {
+  box-sizing: border-box;
   background-color: #f0efeb;
   width: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 h1 {
@@ -26,7 +33,7 @@ h1 {
 .images {
   background-color: white;
   padding: 16px 16px 4px;
-  width: 275px;
+  width: 307px;
   display: inline-block;
   margin: 16px 4px;
 }
@@ -95,4 +102,8 @@ ol {
 
 .pizza {
   font-size: 13px;
+}
+
+ol.pizza {
+  padding-left: 14px;
 }
